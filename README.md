@@ -6,9 +6,9 @@ The repository hosts the Unofficial ONNX Runtime Mobile Release for
 
 ## Disclaimer
 
-The mobile packages published here is built from the official [ONNX Runtime](https://github.com/microsoft/onnxruntime) project. They are unofficial ONNX Runtime packages for Mobile devices.
+The mobile packages published here are built from the official [ONNX Runtime](https://github.com/microsoft/onnxruntime) project. They are unofficial ONNX Runtime packages for Mobile devices.
 
-For any issues or questions, please use the official [ONNX Runtime](https://github.com/microsoft/onnxruntime) repository.
+For any issues or questions, please visit the official [ONNX Runtime](https://github.com/microsoft/onnxruntime) repository.
 
 ## Motivation
 
@@ -27,12 +27,12 @@ The ONNX Runtime Mobile packages published here are full ONNX Runtime packages w
 |Official onnxruntime-mobile-1.9.1.aar | 4.4 MB |
 |Unofficial onnxruntime-mobile-1.9.1.aar | 14.0 MB|
 
-You may use these packages to try out ONNX Runtime. And decide later whether you want to use the official packages or [custom build your own packages](https://onnxruntime.ai/docs/tutorials/mobile/custom-build.html).
+You may use these packages to try out ONNX Runtime, and decide later whether you want to use the official packages or [custom build your own packages](https://onnxruntime.ai/docs/tutorials/mobile/custom-build.html).
 
 ## How to use
 ### Android
-- Download the Android AAR package `onnxruntime-mobile-<release number>.aar` for your preferred ONNX Runtime Release
-- Extract the package
+- Download the Android AAR package `onnxruntime-mobile-<release number>.aar` for your preferred ONNX Runtime Release from [Releases](https://github.com/gwang-msft/unofficial_onnxruntime_mobile_releases/releases)
+- Extract the AAR package for Android
 - Copy the AAR package to `app/libs` of your Android Project
 - Add the following line to the `build.gradle` of your root project
 ```
@@ -44,7 +44,7 @@ allprojects {
 - Add the following line to the `build.gradle` of your app module
 ```
 dependencies {
-    implementation(name: "onnxruntime-release-1.7.0", ext: "aar")
+    implementation(name: "onnxruntime-mobile-<release number>", ext: "aar")
     ...
 ```
 
