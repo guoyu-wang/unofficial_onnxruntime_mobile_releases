@@ -1,6 +1,6 @@
 # Unofficial ONNX Runtime Mobile Releases
 
-The repository hosts the Unofficial ONNX Runtime Mobile Release for
+The repository hosts the Unofficial [ONNX Runtime](https://github.com/microsoft/onnxruntime) Mobile Release for
 - Android
 - iOS (work in progress)
 
@@ -12,7 +12,7 @@ For any issues or questions, please visit the official [ONNX Runtime](https://gi
 
 ## Motivation
 
-The official ONNX Runtime Mobile packages published at
+The official ONNX Runtime Mobile packages are published at
 - Android, at [MavenCentral](https://mvnrepository.com/artifact/com.microsoft.onnxruntime/onnxruntime-mobile)
 - iOS, at [CocoaPods](https://cocoapods.org/)
 
@@ -20,7 +20,7 @@ These official packages target reduced disk footprint for mobile platforms, howe
 - Limited Operators, Opsets and Types support, see [ONNX Runtime Mobile Pre-Built Package](https://onnxruntime.ai/docs/reference/mobile/prebuilt-package/), if your model has unsupported operators, you may see error message like, `"AssignNodesToEpsFromHashesImpl Failed to find kernel def hash (8090321298879394920) in kernel registries for MaxPool(8) node with name 'layer3/pool_3/MaxPool'."`
 - Support only ORT file format, but not the ONNX file format. You will need to convert your ONNX model, see [ONNX Model Conversion](https://onnxruntime.ai/docs/tutorials/mobile/model-conversion.html)
 
-The ONNX Runtime Mobile packages published here are full ONNX Runtime packages which do not have the above limitation. The drawback is that the packages publish here has large disk footprint, for example,
+The ONNX Runtime Mobile packages published here are full ONNX Runtime packages which do not have the above limitations. The drawback is that the packages publish here has large disk footprint, for example,
 
 |Package|Binary Size|
 |-------|-----------|
@@ -31,8 +31,8 @@ You may use these packages to try out ONNX Runtime, and decide later whether you
 
 ## How to use
 ### Android
-- Download the Android AAR package `onnxruntime-mobile-<release number>.aar` for your preferred ONNX Runtime Release from [Releases](https://github.com/gwang-msft/unofficial_onnxruntime_mobile_releases/releases)
-- Extract the AAR package for Android
+- Download the Android AAR package archive `onnxruntime-mobile-<release number>-Android.zip` for your preferred ONNX Runtime Release from [Releases](https://github.com/gwang-msft/unofficial_onnxruntime_mobile_releases/releases)
+- Extract the AAR package `onnxruntime-mobile-<release number>.aar`
 - Copy the AAR package to `app/libs` of your Android Project
 - Add the following line to the `build.gradle` of your root project
 ```
