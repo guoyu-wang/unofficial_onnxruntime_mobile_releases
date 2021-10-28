@@ -1,12 +1,12 @@
 # Unofficial ONNX Runtime Mobile Releases
 
-The repository hosts the Unofficial [ONNX Runtime](https://github.com/microsoft/onnxruntime) Mobile Release for
+The repository hosts the **Unofficial** [ONNX Runtime](https://github.com/microsoft/onnxruntime) Mobile Release for
 - Android
 - iOS (work in progress)
 
 ## Disclaimer
 
-The mobile packages published here are built from the official [ONNX Runtime](https://github.com/microsoft/onnxruntime) project. They are unofficial ONNX Runtime packages for Mobile devices.
+The mobile packages published here are built from the official [ONNX Runtime](https://github.com/microsoft/onnxruntime) project. They are **Unofficial** ONNX Runtime packages for Mobile devices.
 
 For any issues or questions, please visit the official [ONNX Runtime](https://github.com/microsoft/onnxruntime) repository.
 
@@ -50,3 +50,5 @@ dependencies {
 
 ### iOS
 Work in progress
+
+## [Changelog](./CHANGELOG.md)
