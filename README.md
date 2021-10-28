@@ -10,6 +10,8 @@ The mobile packages published here are built from the official [ONNX Runtime](ht
 
 For any issues or questions, please visit the official [ONNX Runtime](https://github.com/microsoft/onnxruntime) repository.
 
+As for now, there is no plan to publish these unofficial packages to public package managers such as Maven or CocoaPods.
+
 ## Motivation
 
 The official ONNX Runtime Mobile packages are published at
