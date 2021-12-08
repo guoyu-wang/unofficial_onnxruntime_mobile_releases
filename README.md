@@ -10,6 +10,8 @@ The mobile packages published here are built from the official [ONNX Runtime](ht
 
 For any issues or questions, please visit the official [ONNX Runtime](https://github.com/microsoft/onnxruntime) repository.
 
+As for now, there is no plan to publish these unofficial packages to public package managers such as Maven or CocoaPods.
+
 ## Motivation
 
 The official ONNX Runtime Mobile packages are published at
@@ -19,6 +21,7 @@ The official ONNX Runtime Mobile packages are published at
 These official packages target reduced disk footprint for mobile platforms, however they have certain limitations, such as
 - Limited Operators, Opsets and Types support, see [ONNX Runtime Mobile Pre-Built Package](https://onnxruntime.ai/docs/reference/mobile/prebuilt-package/), if your model has unsupported operators, you may see error message like, `"AssignNodesToEpsFromHashesImpl Failed to find kernel def hash (8090321298879394920) in kernel registries for MaxPool(8) node with name 'layer3/pool_3/MaxPool'."`
 - Support only ORT file format, but not the ONNX file format. You will need to convert your ONNX model, see [ONNX Model Conversion](https://onnxruntime.ai/docs/tutorials/mobile/model-conversion.html)
+- For more information, see [ONNX Runtime Mobile Limitations](https://onnxruntime.ai/docs/tutorials/mobile/limitations.html)
 
 The ONNX Runtime Mobile packages published here are full ONNX Runtime packages which do not have the above limitations. The drawback is that the packages publish here has large disk footprint, for example,
 
