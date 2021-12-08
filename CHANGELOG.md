@@ -1,6 +1,6 @@
 # Changelog
 
-# [1.10]
+# [1.10.0]
 - Added Android AAR package - 12/07/2021
 
 # [1.9.1]
