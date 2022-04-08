@@ -1,5 +1,9 @@
 # Unofficial ONNX Runtime Mobile Releases
 
+## Latest update (Apr.08.2022)
+I am not working on ONNX Runtime any more, and from [ONNX Runtime 1.11 release](https://github.com/microsoft/onnxruntime/releases/tag/v1.11.0), there will be official full mobile packages for both iOS and Android available. **This git repo is archived and will not be maintained**.
+
+##
 The repository hosts the **Unofficial** [ONNX Runtime](https://github.com/microsoft/onnxruntime) Mobile Release for
 - Android
 - iOS (work in progress)
